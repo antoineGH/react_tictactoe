@@ -53,7 +53,7 @@ export default class Board extends Component {
 	}
 
 	resetGrid() {
-		this.setState({ squares: Array(9).fill(null) })
+		this.setState({ squares: Array(9).fill(null), xIsNext: true })
 	}
 
 	render() {
@@ -85,6 +85,9 @@ export default class Board extends Component {
 					{this.renderSquare(7)}
 					{this.renderSquare(8)}
 				</div>
+				<button className='btn-reset' onClick={() => this.resetGrid()}>
+					Reset
+				</button>
 			</div>
 		)
 	}

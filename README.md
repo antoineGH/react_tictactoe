@@ -75,4 +75,4 @@ yarn start
 
 ## 5. Screenshots<a name="screenshots"></a>
 
-![Components Screenshot](https://templars.guru/app/github/react_tictactoe/tictactoe.PNG)
+![Components Screenshot](https://github.com/antoineratat/github_docs/blob/main/react_tictactoe/tictactoe.PNG?raw=true)
